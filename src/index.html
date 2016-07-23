@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Mr. Robot</title>
+		<script src="js/phaser.min.js"></script>
+		<script src="js/modal.js"></script>
+		<script src="js/boot.js"></script>
+		<script src="js/preload.js"></script>
+		<script src="js/home.js"></script>
+		<script src="js/step_1.js"></script>
+		<script src="js/step_2.js"></script>
+		<script src="js/step_3.js"></script>
+		<script src="js/step_4.js"></script>
+		<script src="js/step_5.js"></script>
+		<script src="js/step_6.js"></script>
+		<script src="js/step_7.js"></script>
+		<script src="js/step_8.js"></script>
+		<script src="js/step_9.js"></script>
+		<script src="js/step_10.js"></script>
+		<script src="js/step_11.js"></script>
+		<script src="js/step_12.js"></script>
+		<script src="js/step_13.js"></script>
+		<script src="js/step_14.js"></script>
+		<script src="js/step_15.js"></script>
+		<script src="js/end.js"></script>
+	</head>
+	<body>
+		<script>
+			var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game');
+
+	        game.state.add("Boot", boot);
+			game.state.add("Preload", preload);
+			game.state.add("Home", home);
+			game.state.add("Step_1", step_1);
+			game.state.add("Step_2", step_2);
+			game.state.add("Step_3", step_3);
+			game.state.add("Step_4", step_4);
+			game.state.add("Step_5", step_5);
+			game.state.add("Step_6", step_6);
+			game.state.add("Step_7", step_7);
+			game.state.add("Step_8", step_8);
+			game.state.add("Step_9", step_9);
+			game.state.add("Step_10", step_10);
+			game.state.add("Step_11", step_11);
+			game.state.add("Step_12", step_12);
+			game.state.add("Step_13", step_13);
+			game.state.add("Step_14", step_14);
+			game.state.add("Step_15", step_15);
+			game.state.add("End", end);
+
+			game.state.start("Boot");
+		</script>
+	</body>
+</html>
